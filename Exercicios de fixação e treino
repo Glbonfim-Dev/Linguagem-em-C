@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a;
+int b;
+int c;
+int d;
+int tudo;
+
+
+printf("digite um numero: ");
+scanf("%d", &a);
+printf("digite um numero: ");
+scanf("%d", &b);
+printf("digite um numero: ");
+scanf("%d", &c);
+printf("digite um numero: ");
+scanf("%d", &d);
+
+tudo = a + b + c + d;
+
+printf(" O valor de tudo eh: %d", tudo);
+
+
+    return 0;
+}
