@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+
+  setlocale(LC_ALL, "portuguese");
+
+  int num1, num2, media;
+  printf("Cálculo para descobrir a média entre dois números \n");
+  printf("Digite o primeiro número:\n");
+  scanf("%d", &num1);
+  printf("Digite o segundo número:\n");
+  scanf("%d", &num2);
+
+  media = (num1+num2) / 2;
+
+  printf("A média é: %d", media);
+
+    return 0;
+}
