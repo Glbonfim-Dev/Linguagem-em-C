@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+  setlocale(LC_ALL, "portuguese");
+
+  int a,b;
+
+  printf("Descobrindo o menor número\n\n");
+
+  printf("Digite o primeiro número:\n");
+  scanf("%d", &a);
+  printf("Digite o segundo número:\n");
+  scanf("%d", &b);
+
+  if (a<b) {
+    printf("O menor é: %d", a);
+  }
+  else if (b<a){
+    printf("O menor é: %d", b);
+  }
+  else{
+    printf("Todos são iguais.\n");
+  }
+    return 0;
+}
