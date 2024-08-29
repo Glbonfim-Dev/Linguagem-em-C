@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+setlocale(LC_ALL, "portuguese");
+
+   int a,b,divisao;
+
+   printf("Calculo de divisão \n");
+
+   printf("Digite um número: ");
+   scanf("%d", &a);
+   printf("Digite um número: ");
+   scanf("%d", &b);
+
+   divisao = a / b;
+
+   printf("O resultado é: %d", divisao);
+
+
+    return 0;
+}
